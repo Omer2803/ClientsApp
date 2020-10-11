@@ -1,0 +1,43 @@
+<h1>Search Customer</h1>
+
+
+<form [formGroup]="searchCustomerForm" (ngSubmit)="searchCustomer(searchCustomerForm.value)" >
+
+<div>
+<label>
+    Filter by
+</label>
+<select (change)="onSelectChange($event.target.value)">
+    <option value="id">Id</option>
+    <option value="phoneNumber">Phone Number</option>
+ </select>
+</div>
+<div>
+ <label for="filterValue">
+    Value
+</label>
+ <input id="filterValue" type="text" formControlName="filterValue">
+</div>
+<div class="warning" *ngIf="submitted && searchCustomerForm.controls.filterValue.errors">Value is required</div>
+<div>
+<input type="submit" value="Search">
+</div>
+</form>
+
+
+<div >
+    
+</div>
+
+<table>
+    <th>ID</th>
+    <th>Phone number</th>
+    <th>First name</th>
+    <th>Last name</th>
+    <tr *ngFor="let customer of filteredList">
+        <td><a (click)="editUser(customer)">{{customer.Identity}}</a></td>
+        <td>{{customer.PhoneNumber}}</td>
+        <td>{{customer.FirstName}}</td>
+        <td>{{customer.LastName}}</td>
+    </tr>
+</table>

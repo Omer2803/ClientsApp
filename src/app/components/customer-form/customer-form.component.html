@@ -1,0 +1,43 @@
+<h1>Add/Update Customer</h1>
+<form [formGroup]="customerForm" (ngSubmit)="onSubmit(customerForm.value)">
+    <div>
+        <label for="identity">
+            Identity
+        </label>
+        <input id="identity" type="text" formControlName="identity" disabled="{{isUpdate ? 'disabled':'enabled'}}">
+      </div>
+      <div class="warning" *ngIf="submitted && customerForm.controls.identity.errors">Identity is required</div>
+      <div>
+        <label for="phoneNumber">
+            Phone Number
+        </label>
+        <input id="phoneNumber" type="text" formControlName="phoneNumber">
+      </div>
+      <div class="warning" *ngIf="submitted && customerForm.controls.phoneNumber.errors"> phone number is required</div>
+      <div>
+        <label for="firstName">
+            First Name
+        </label>
+        <input id="firstName" type="text" formControlName="firstName">
+      </div>
+      <div>
+        <label for="lastName">
+            Last Name
+        </label>
+        <input id="lastName" type="text" formControlName="lastName">
+      </div>
+      <div>
+        <label for="dateBirth">
+            Date Birth
+        </label>
+        <input id="dateBirth" type="date" formControlName="dateBirth">
+      </div>
+      <div>
+        <label for="remarks">
+           Remarks
+        </label>
+        <input id="remarks" type="text" formControlName="remarks">
+      </div>
+<input type="submit" value="{{isUpdate ? 'Update':'Send'}}">
+</form>
+
