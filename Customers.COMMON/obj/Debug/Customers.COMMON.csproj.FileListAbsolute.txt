@@ -1,0 +1,12 @@
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\Customers.COMMON.dll.config
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\Customers.COMMON.dll
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\Customers.COMMON.pdb
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\EntityFramework.dll
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\EntityFramework.xml
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\obj\Debug\Customers.COMMON.csprojAssemblyReference.cache
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\obj\Debug\Customers.COMMON.csproj.CoreCompileInputs.cache
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\obj\Debug\Customers.COMMON.csproj.CopyComplete
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\obj\Debug\Customers.COMMON.dll
+C:\Users\oc250074\source\repos\CustomersApp\Customers.COMMON\obj\Debug\Customers.COMMON.pdb
